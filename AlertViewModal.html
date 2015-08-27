@@ -1,0 +1,31 @@
+<!-- UIAlertViewModel Template -->
+<script type="text/html" id="AlertViewModal">
+    <!-- Modal -->
+<div class="modal fade" id="alert-view-modal" tabindex="-1" role="dialog" aria-labelledby="alert-view-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel"><%= alertTitle %></h4>
+            </div>
+            <div class="modal-body">
+                <%= alertMessage %>
+            </div>
+            <div class="modal-footer">
+                <% _.each(collection.slice(0).reverse(), function(item){ %>
+                    <button type="button" class="btn btn-default" data-event="<%= collection.indexOf(item) %>" autocomplete="off"><%= item.title %></button>
+                <% }); %>
+                <button type="button" class="btn btn-default" data-dismiss="modal" data-event="secondary"><%= secondaryBtnTitle %></button>
+                <button type="button" class="btn btn-primary" data-event="primary" autocomplete="off"><%= primaryBtnTitle %></button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+</script>
+
+<div id="static-region">
+            
+</div>
