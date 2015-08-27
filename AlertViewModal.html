@@ -1,4 +1,3 @@
-<!-- UIAlertViewModel Template -->
 <script type="text/html" id="AlertViewModal">
     <!-- Modal -->
 <div class="modal fade" id="alert-view-modal" tabindex="-1" role="dialog" aria-labelledby="alert-view-modal" aria-hidden="true">
@@ -12,7 +11,7 @@
                 <%= alertMessage %>
             </div>
             <div class="modal-footer">
-                <% _.each(collection.slice(0).reverse(), function(item){ %>
+                <% _.each(collection ? collection.slice(0).reverse() : [], function(item){ %>
                     <button type="button" class="btn btn-default" data-event="<%= collection.indexOf(item) %>" autocomplete="off"><%= item.title %></button>
                 <% }); %>
                 <button type="button" class="btn btn-default" data-dismiss="modal" data-event="secondary"><%= secondaryBtnTitle %></button>
