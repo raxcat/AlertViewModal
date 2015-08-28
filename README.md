@@ -24,7 +24,7 @@ Read the following cases or try a demo on [JSFiddle].
 - 3rd button(Optional)
 - 4rd button(Optional)
 
-![Alt text](/sample_4.png?raw=true "Optional title")
+![Alt text](/sample_4_buttons.png?raw=true "Optional title")
 
 
 ### Dependency
