@@ -84,7 +84,7 @@ alertView.show({
     title: "Hello",
     message: "How's going",
     primaryButtonLable: "Primary",
-    secondaryButtonLabel: "Cancel",
+    secondaryButtonLabel: "Cancel(optional)",
     onClickPrimaryButton: function() {
         console.log('Good to hear that.');
     },
