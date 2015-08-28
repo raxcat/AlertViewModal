@@ -83,7 +83,7 @@ alertView.show({
     layoutRegion: testRegion,
     title: "Hello",
     message: "How's going",
-    primaryButtonLable: "Primary",
+    primaryButtonLable: "OK",
     secondaryButtonLabel: "Cancel(optional)",
     onClickPrimaryButton: function() {
         console.log('Good to hear that.');
