@@ -17,4 +17,4 @@ Inspirated by UIAlertViewController and UIAlertView in iOS. Based on Marionette,
 - backbone.js
 - backbone.marionette.js
 
-[JSFiddle]:http://jsfiddle.net/raxcat/h5tgdczg/2/
+[JSFiddle]:http://jsfiddle.net/raxcat/h4g0v71y/2/
