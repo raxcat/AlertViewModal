@@ -14,7 +14,7 @@
                 <% _.each(collection ? collection.slice(0).reverse() : [], function(item){ %>
                     <button type="button" class="btn btn-default" data-event="<%= collection.indexOf(item) %>" autocomplete="off"><%= item.title %></button>
                 <% }); %>
-                <button type="button" class="btn btn-default" data-dismiss="modal" data-event="secondary"><%= secondaryBtnTitle %></button>
+                <button type="button" class="btn btn-default <%= secondaryBtnTitle || "hide" %>" data-dismiss="modal" data-event="secondary"><%= secondaryBtnTitle %></button>
                 <button type="button" class="btn btn-primary" data-event="primary" autocomplete="off"><%= primaryBtnTitle %></button>
             </div>
         </div>
