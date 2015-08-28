@@ -1,13 +1,31 @@
 # AlertViewModal
 
-Inspirated by UIAlertViewController and UIAlertView in iOS. Based on Marionette, bootstrap, underscore. 
+Inspirated by UIAlertViewController and UIAlertView in iOS. Based on *Marionette*, *bootstrap*, *underscore* frameworks. 
+AlertViewModal class extends from *Marionette* controller class. It is reusable and responsible for presenting a alert view model for you. Additionally, callbacks are easily setup for every button to suit any requirements.
 
-![Alt text](/sample1.png?raw=true "Optional title")
+Read the following cases or try a demo on [JSFiddle].
 
-![Alt text](/sample2.png?raw=true "Optional title")
+## OK button
+- Primary button(Required)
+
+![Alt text](/sample_primary.png?raw=true "Optional title")
 
 
- See [JSFiddle] for a live demo.
+## OK and Cancel buttons
+- Primary button(Required)
+- Secondary button(Optional)
+
+![Alt text](/sample_primary_secondary.png?raw=true "Optional title")
+
+## 4 buttons
+
+- Primary button(Required)
+- Secondary button(Optional)
+- 3rd button(Optional)
+- 4rd button(Optional)
+
+![Alt text](/sample_4.png?raw=true "Optional title")
+
 
 ### Dependency
 - bootstrap.js
